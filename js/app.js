@@ -38,6 +38,20 @@
 // console.log(revAr);
 
 
+//  Array methods -----------------------------------------------------------------
+
+// const customerList = [];
+
+
+// customerList.push(1);
+// customerList.push(2);
+// customerList.push(3);
+
+// let revAr = customerList.reverse();
+
+// console.log(revAr);
+
+
 const products = [
     { name: "bun", inStock: true },
     { name: "car", inStock: false },
@@ -109,3 +123,46 @@ let sample = txtValue => txtValue;
 
 console.log(sample("Hi saman"));
 
+
+const productsList = [
+    { name: "bun", inStock: true },
+    { name: "car", inStock: false },
+    { name: "bat", inStock: true },
+    { name: "van", inStock: false },
+];
+
+
+
+// for(product of productsList){
+//     console.log(product);
+// }
+
+
+// productsList.forEach(product => console.log(product));
+
+
+
+// const latterList = ["B","A","D","C"];
+
+// let sorAr = latterList.toSorted();
+// console.log(sorAr);
+
+
+//  const employeeSalary = [75000,25000,45000,55000];
+//  let newSalaryArry = employeeSalary.map(salary => salary*2);
+//  console.log(newSalaryArry);
+
+const studentList = [
+    {id:"001",name:"saman"},
+    {id:"002",name:"kamal"},
+    {id:"003",name:"wimal"},
+    {id:"004",name:"ranil"},
+];
+
+let student = studentList.find(student=>student.id==="002");
+
+console.log(student);
+
+
+
+ 
